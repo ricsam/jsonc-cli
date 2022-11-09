@@ -1,0 +1,38 @@
+{
+  "name": "jsonc-cli",
+  "version": "1.0.1",
+  "description": "Read and modify JSONC documents. A CLI front-end for the jsonc-parser npm package",
+  "main": "cli.js",
+  "bin": {
+    "jsonc": "cli.js"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "scripts": {
+    "test": "jest",
+    "start": "node cli.js"
+  },
+  "keywords": [
+    "jsonc",
+    "cli"
+  ],
+  "author": "Ricsam<oss@ricsam.dev>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ricsam/jsonc-cli.git"
+  },
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jsonc-parser": "3",
+    "yargs": "17"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.2.1",
+    "@types/node": "^18.11.9",
+    "jest": "^29.2.2"
+  }
+}
