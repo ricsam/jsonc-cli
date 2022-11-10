@@ -2,6 +2,10 @@
 
 Read and modify JSONC documents (JSON with comments). A CLI front-end for the [jsonc-parser](https://www.npmjs.com/package/jsonc-parser) npm package.
 
+[![npm](https://img.shields.io/npm/v/jsonc-cli)](https://www.npmjs.com/package/jsonc-cli)
+[![npm](https://img.shields.io/npm/dw/jsonc-cli?label=npm%20downloads)](https://www.npmjs.com/package/jsonc-cli)
+[![GitHub Repo stars](https://img.shields.io/github/stars/ricsam/jsonc-cli?style=social)](https://github.com/ricsam/jsonc-cli)
+
 ## Installation
 ```bash
 npm install -g jsonc-cli
