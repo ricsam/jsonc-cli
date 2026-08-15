@@ -103,7 +103,7 @@ function stdin() {
     process.stdin.on("data", (data) => {
       buffer += String(data);
     });
-    process.stdin.on("close", () => {
+    process.stdin.on("end", () => {
       resolve(buffer);
     });
     return buffer;
